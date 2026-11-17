@@ -29,7 +29,7 @@ async function getTraceV2() {
 
     const trace = await getTraceV2();
 
-    if (trace?.loc && !['VN', 'HK', 'TW', 'CN'].includes(trace.loc)) {
+    if (trace?.loc && !['VN', 'HK', 'TW', 'CN', 'SG'].includes(trace.loc)) {
 
         const scripts = [
             {
